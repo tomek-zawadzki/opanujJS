@@ -6,3 +6,31 @@ html {
 *:after {
   box-sizing: inherit;
 }
+
+html {
+  font-size: 62.5%;
+  background-color: rgb(31, 31, 31);
+  color: aliceblue;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(24, 26, 29);
+  color: aliceblue;
+  padding: 0 0 6rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.header__title {
+  color: rgb(255, 117, 117);
+  font-size: 6rem;
+}
+
+.header__info {
+  font-size: 1.8rem;
+  width: 80%;
+}
